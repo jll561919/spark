@@ -25,7 +25,7 @@ before and after the section, with the following syntax:
 
 You can also disable only one rule, by specifying its rule id, as specified in:
   http://www.scalastyle.org/rules-0.7.0.html
-
+   
   // scalastyle:off no.finalize
   override def finalize(): Unit = ...
   // scalastyle:on no.finalize
